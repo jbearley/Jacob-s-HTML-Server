@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jacob Earley - HTML Server Demo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+      padding: 2rem;
+    }
+    .container {
+      max-width: 700px;
+      margin: auto;
+      background: white;
+      padding: 2rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      color: #1a73e8;
+    }
+    a {
+      color: #1a73e8;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Jacob Earley</h1>
+    <p>Email: <a href="mailto:jacobearley01@gmail.com">jacobearley01@gmail.com</a></p>
+    <p>Phone: (312) 952-6833</p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/jacob-earley" target="_blank">linkedin.com/in/jacob-earley</a></p>
+    <p>Website: <a href="https://jbearley.github.io" target="_blank">jbearley.github.io</a></p>
+
+    <h2>Live HTML Server Demo</h2>
+    <p>This is a simple static HTML server to showcase basic web serving skills. The source code can be hosted on platforms like GitHub Pages, or served locally with a Python/Node.js/Go backend.</p>
+
+    <h2>Tech Skills Demonstrated</h2>
+    <ul>
+      <li>HTML & CSS Structure</li>
+      <li>Responsive Layouts</li>
+      <li>Local or Cloud-Based Web Hosting</li>
+    </ul>
+
+    <h2>Hosting Instructions</h2>
+    <p>This can be hosted by running a simple command:</p>
+    <pre><code>python3 -m http.server 8080</code></pre>
+    <p>Then open <a href="http://localhost:8080">http://localhost:8080</a> in your browser.</p>
+  </div>
+</body>
+</html>
